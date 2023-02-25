@@ -1,16 +1,16 @@
 // import { StatusBar } from 'expo-status-bar';
+import { Loading } from '@components/Loading';
+import {
+  Roboto_400Regular,
+  Roboto_700Bold,
+  useFonts,
+} from '@expo-google-fonts/roboto';
+import { Groups } from '@screens/Groups';
 // eslint-disable-next-line import/namespace
 import { StatusBar } from 'react-native';
 import { ThemeProvider } from 'styled-components/native';
-import {
-  useFonts,
-  Roboto_400Regular,
-  Roboto_700Bold,
-} from '@expo-google-fonts/roboto';
 
-import { Groups } from '@screens/Groups';
 import theme from './src/theme';
-import { Loading } from '@components/Loading';
 
 export default function App() {
   const [fontsLoaded] = useFonts({

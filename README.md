@@ -15,7 +15,7 @@ ou
 [prettier](https://prettier.io/docs/en/install.html)
 [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
 ```
-yarn add -D eslint prettier eslint-config-prettier eslint-plugin-react
+yarn add -D eslint prettier eslint-config-prettier eslint-plugin-react @typescript-eslint/eslint-plugin
 ```
 
 [Ciar alias para os imports, evitando passar caminhos complexos - babel-plugin-module-resolver](https://github.com/tleunen/babel-plugin-module-resolver)
@@ -29,7 +29,10 @@ yarn add -D babel-plugin-module-resolver
 ```
 
 
-~~[Ordenar as importações - eslint-plugin-simple-import-sort](https://github.com/lydell/eslint-plugin-simple-import-sort)~~
+[Ordenar as importações - eslint-plugin-simple-import-sort](https://github.com/lydell/eslint-plugin-simple-import-sort)
+```
+yarn add -D eslint-plugin-simple-import-sort
+```
 
 
 ### Adição de recursos na aplicação
