@@ -7,5 +7,12 @@
   "printWidth": 80,
   "arrowParens": "always",
   "endOfLine": "lf",
-  "editorconfig": true
+  "editorconfig": true,
+  "importOrder": [
+    "^@screens/(.*)$",
+    "^@components/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
 }
