@@ -29,10 +29,34 @@ yarn add -D babel-plugin-module-resolver
 ```
 
 
-[Ordenar as importações - eslint-plugin-simple-import-sort](https://github.com/lydell/eslint-plugin-simple-import-sort)
+~~[Ordenar as importações - eslint-plugin-simple-import-sort](https://github.com/lydell/eslint-plugin-simple-import-sort)~~
 ```
-yarn add -D eslint-plugin-simple-import-sort
+#yarn add -D eslint-plugin-simple-import-sort~~
 ```
+
+[Ordenar as importações - @trivago/prettier-plugin-sort-imports](https://github.com/trivago/prettier-plugin-sort-imports#readme)
+```bash
+yarn add -D @trivago/prettier-plugin-sort-imports
+```
+Este plugin pede para que coloque a ordenação que queremos no arquivo `.prettierrc.json` e ficaram esttas opções.
+
+```json
+  "importOrder": [
+    "^react$",
+    "^react-native$",
+    "^@react-navigation$",
+    "^@storage/(.*)$",
+    "^@screens/(.*)$",
+    "^@components/(.*)$",
+    "^@assets/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+```
+
+
+
 
 
 ### Adição de recursos na aplicação
