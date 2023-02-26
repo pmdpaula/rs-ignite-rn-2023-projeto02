@@ -53,7 +53,13 @@ yarn add phosphor-react-native
 npx expo install react-native-svg
 ```
 
-- []()
+- [Navegação nas páginas - React Navigation](https://reactnavigation.org/docs/getting-started/)
+```
+yarn add @react-navigation/native
+npx expo install react-native-screens react-native-safe-area-context`
+
+yarn add @react-navigation/native-stack
+```
 
 ## Configurações do projeto
 

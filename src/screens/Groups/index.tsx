@@ -1,5 +1,8 @@
 import { useEffect, useState } from 'react';
+
 import { FlatList } from 'react-native';
+
+import { useNavigation } from '@react-navigation/native';
 
 import { Button } from '@components/Button';
 import { GroupCard } from '@components/GroupCard';
@@ -22,9 +25,15 @@ export const Groups = () => {
     'Galera do Canadá',
   ]);
 
-  useEffect(() => {
-    setGroups([]);
-  }, []);
+  const { navigate } = useNavigation();
+
+  function handleNewGroup() {
+    navigate('new');
+  }
+
+  // useEffect(() => {
+  //   setGroups([]);
+  // }, []);
 
   return (
     <ScreenContainer>
@@ -44,7 +53,7 @@ export const Groups = () => {
           <ListEmpty message="Que tal cadastrar a primeira turma?" />
         )}
       />
-      <Button type="SECONDARY" title="Criar nova turma" />
+      <Button title="Criar nova turma" onPress={handleNewGroup} />
     </ScreenContainer>
   );
 };
