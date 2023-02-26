@@ -70,6 +70,7 @@ module.exports = {
     //     }
     //   }
     // }],
+    'import/namespace': 0,
     'import/no-unresolved': [2, { ignore: ['^@'] }],
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',

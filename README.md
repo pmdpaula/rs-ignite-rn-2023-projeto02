@@ -36,17 +36,24 @@ yarn add -D eslint-plugin-simple-import-sort
 
 
 ### Adição de recursos na aplicação
-[Estilização de componentes - styled-components](https://styled-components.com/docs/basics#installation)
+- [Estilização de componentes - styled-components](https://styled-components.com/docs/basics#installation)
 ```
 yarn add styled-components
 yarn add -D @types/styled-components @types/styled-components-react-native
 ```
 
-[Adição de fontes Google](npx expo install expo-font @expo-google-fonts/inter)
+- [Adição de fontes Google](https://docs.expo.dev/guides/using-custom-fonts/#using-a-google-font)
 ```
 npx expo install expo-font @expo-google-fonts/roboto
 ```
 
+- [Phosphor Icons - biblioteca de ícones - phosphor-react-native](https://phosphoricons.com/)
+```
+yarn add phosphor-react-native
+npx expo install react-native-svg
+```
+
+- []()
 
 ## Configurações do projeto
 
