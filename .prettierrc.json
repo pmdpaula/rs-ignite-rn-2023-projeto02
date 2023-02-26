@@ -9,9 +9,13 @@
   "endOfLine": "lf",
   "editorconfig": true,
   "importOrder": [
+    "^react$",
+    "^react-native$",
+    "^@react-navigation/(.*)$",
     "^@screens/(.*)$",
     "^@components/(.*)$",
-    "^[./]"
+    "^[./]",
+    "^@assets/(.*)$"
   ],
   "importOrderSeparation": true,
   "importOrderSortSpecifiers": true
