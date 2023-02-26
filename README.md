@@ -37,24 +37,24 @@ yarn add -D eslint-plugin-simple-import-sort
 
 ### Adição de recursos na aplicação
 - [Estilização de componentes - styled-components](https://styled-components.com/docs/basics#installation)
-```
+```bash
 yarn add styled-components
 yarn add -D @types/styled-components @types/styled-components-react-native
 ```
 
 - [Adição de fontes Google](https://docs.expo.dev/guides/using-custom-fonts/#using-a-google-font)
-```
+```bash
 npx expo install expo-font @expo-google-fonts/roboto
 ```
 
 - [Phosphor Icons - biblioteca de ícones - phosphor-react-native](https://phosphoricons.com/)
-```
+```bash
 yarn add phosphor-react-native
 npx expo install react-native-svg
 ```
 
 - [Navegação nas páginas - React Navigation](https://reactnavigation.org/docs/getting-started/)
-```
+```bash
 yarn add @react-navigation/native
 npx expo install react-native-screens react-native-safe-area-context`
 
@@ -69,7 +69,7 @@ Mapeamento dos diretórios usando o babel-plugin-module-resolver.
 Exemplo do que foi feito.
 
 No arquivo `babel.config.js` foi adicionado as seguintes linhas:
-```
+```javascript
 ...
 plugins: [
       ['module-resolver', {
@@ -101,7 +101,7 @@ plugins: [
 ```
 
 No arquivo `tsconfig.json` foi adicionado as seguintes linhas:
-```
+```javascript
 ...
 "baseUrl": "./",
     "paths": {
