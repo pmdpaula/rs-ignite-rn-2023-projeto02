@@ -11,11 +11,12 @@
   "importOrder": [
     "^react$",
     "^react-native$",
-    "^@react-navigation/(.*)$",
+    "^@react-navigation$",
+    "^@storage/(.*)$",
     "^@screens/(.*)$",
     "^@components/(.*)$",
-    "^[./]",
-    "^@assets/(.*)$"
+    "^@assets/(.*)$",
+    "^[./]"
   ],
   "importOrderSeparation": true,
   "importOrderSortSpecifiers": true

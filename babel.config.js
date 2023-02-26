@@ -17,14 +17,10 @@ module.exports = function (api) {
           '@types': './src/@types',
           '@navigation': './src/navigation',
           '@context': './src/context',
-          '@services': './src/services',
           '@config': './src/config',
           '@constants': './src/constants',
-          '@store': './src/store',
           '@styles': './src/styles',
-          '@i18n': './src/i18n',
-          '@locales': './src/locales',
-
+          '@storage': './src/storage',
         }
       }]
     ],
